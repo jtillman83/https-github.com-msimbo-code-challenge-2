@@ -1,0 +1,38 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-position {
+    display: flex;
+    justify-content: space-evenly;
+    color: #4B4B4B;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.nav-position > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#left {
+    width: 120px;
+}
+
+#right {
+    width: 200px;
+}
+
+#right img {
+    border-radius: 50%;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+abbr {
+    cursor: pointer;
+    text-decoration: none;
+}
